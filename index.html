@@ -199,9 +199,8 @@
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button
-            class="main-button"
-            type="button"
-            data-modal-open>
+            class="main-button order-form-button"
+            type="button">
             Order service
           </button>
         </div>
@@ -906,7 +905,7 @@
       data-modal>
       <div class="modal">
         <button
-          class="modal-button-close"
+          class="modal-button-close form-button-close"
           type="button"
           data-modal-close>
           <svg
@@ -931,7 +930,8 @@
                 class="modal-input"
                 type="text"
                 name="user-name"
-                id="user-name" />
+                id="user-name"
+                required />
               <svg
                 class="modal-input-svg"
                 width="18"
@@ -951,7 +951,8 @@
                 class="modal-input"
                 type="tel"
                 name="tel"
-                id="user-phone" />
+                id="user-phone"
+                required />
               <svg
                 class="modal-input-svg"
                 width="18"
@@ -971,7 +972,8 @@
                 class="modal-input"
                 type="email"
                 name="email"
-                id="user-email" />
+                id="user-email"
+                required />
               <svg
                 class="modal-input-svg"
                 width="18"
@@ -998,7 +1000,8 @@
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
-              value="true" />
+              value="true"
+              required />
             <label
               class="modal-label-checkbox"
               for="user-privacy"
@@ -1030,9 +1033,6 @@
     </div>
     <script
       type="module"
-      src="./modal.js"></script>
-    <!-- <script
-      type="module"
-      src="./js.js"></script> -->
+      src="./main.js"></script>
   </body>
 </html>
